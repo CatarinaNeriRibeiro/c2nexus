@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C2Nexus - Your Space, Our Future.</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Basic CSS to apply your colors and fonts */
+        
+        /* Define your color palette as CSS variables */
+        :root {
+            --color-white: #F4F4F4;
+            --color-green: #68AD71;
+            --color-light-blue: #82C3C9;
+            --color-medium-blue: #0073B7;
+            --color-dark-blue: #2A4B8D;
+            --color-text: #322B2B;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif; /* Main font for text */
+            background-color: var(--color-white);
+            color: var(--color-text);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* The Header container for your logo and menu */
+        header {
+            padding: 20px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img.logo {
+            width: 150px; /* Adjust logo size as needed */
+        }
+        
+        nav a {
+            font-family: 'Raleway', sans-serif; /* Font for buttons/links */
+            text-decoration: none;
+            color: var(--color-medium-blue);
+            margin: 0 15px;
+            font-weight: 700;
+        }
+        
+        /* "Sign In" button styling */
+        nav a.button-signin {
+            background-color: var(--color-dark-blue);
+            color: var(--color-white);
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        /* The "Hero" (main) section with your slogan */
+        .hero {
+            padding: 100px 20px;
+            background-color: var(--color-dark-blue);
+            color: var(--color-white);
+        }
+
+        .hero h1 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+            margin: 0;
+        }
+        
+        .hero p {
+            font-size: 24px;
+            color: var(--color-light-blue);
+            margin-top: 10px;
+        }
+        
+        /* "Get Started" button styling */
+        .hero a.button-main {
+            display: inline-block;
+            margin-top: 30px;
+            background-color: var(--color-green);
+            color: var(--color-white);
+            padding: 15px 30px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        /* Section for explaining "The Problem" (from your pitch) */
+        .section {
+            padding: 60px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        
+        .section h2 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 36px;
+            color: var(--color-dark-blue);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="C2Nexus (4).png" alt="C2Nexus Logo" class="logo">
+        
+        <nav>
+            <a href="#problem">The Problem</a>
+            <a href="#solution">The Solution</a>
+            <a href="#contact">Contact</a>
+            <a href="#" class="button-signin">Sign In</a> 
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <h1>C2NEXUS</h1>
+            <p>Your Space, Our Future.</p>
+            <p style="font-size: 18px; max-width: 600px; margin: auto; margin-top: 20px;">
+                [cite_start]C2Nexus connects carbon capture innovators with businesses ready to meet their sustainability goals - and handles the process end-to-end. [cite: 7, 39]
+            </p>
+            <a href="#" class="button-main">Get Started</a>
+        </div>
+        
+        <div id="problem" class="section">
+            <h2>The Problem</h2>
+            [cite_start]<p>The lack of accessible, easy-to-deploy carbon capture solutions combined with limited industry knowledge and opportunity, is preventing businesses... from acting. [cite: 13] [cite_start]This is happening at a time when climate change is accelerating and net-zero deadlines are looming. [cite: 14]</p>
+        </div>
+
+        <div id="solution" class="section" style="background-color: #fff;">
+            <h2>Our Solution</h2>
+            [cite_start]<p>C2Nexus is a marketplace and facilitation platform that connects carbon capture providers (e.g., DAC and other solutions) with businesses and property owners. [cite: 99] [cite_start]We vet and verify suppliers to ensure they offer credible, effective technologies, and match businesses based on their sustainability goals, budget, and available space. [cite: 100] [cite_start]We remove key barriers to adoption by managing outreach, logistics, and facilitation. [cite: 101]</p>
+        </div>
+
+    </main>
+    
+    <footer style="padding: 40px 20px; background-color: var(--cor-texto); color: var(--cor-white);">
+        <p>© 2025 C2Nexus (Intertemporal Solutions)</p>
+        <p>Email: c2nexus@intertemporalsolutions.com</p>
+        <a href="https://www.linkedin.com/company/c2nexus/" style="color: var(--color-light-blue);">LinkedIn</a>
+    </footer>
+
+</body>
+</html>
